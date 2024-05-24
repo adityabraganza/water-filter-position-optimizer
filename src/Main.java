@@ -161,7 +161,7 @@ public class Main{
     public static List<Person> generate_random_population_sample(){
         List<Person> return_arr = new ArrayList<>();
 
-        for (int i = 0; i < (int) Math.round(Math.random() * 50); i++) {
+        for (int i = 0; i < ((int) Math.round(Math.random() * 40) + 10); i++) {
             int random_person_type = (int) Math.round(Math.random() * 5);
 
             switch (random_person_type) {
